@@ -1,0 +1,27 @@
+---
+- summary: |
+    Проверка добавления товара в корзину
+  requirement: |
+    При 
+  prerequisites: |
+    Открыта главная страница
+  test-data: |
+    
+  steps:
+    - Нажимаем на кнопку:"Add to cart"
+  expected-result: |
+    Товар успешно добавлен в корзину
+
+- summary: |
+   Проверка удаления товара из корзины 
+  requirement: |
+    
+  prerequisites:
+    Товар должен быть в корзине
+  test-data: |
+    
+  steps:
+    - Переходим в Cart
+    - Нажимаем кнопку Delete
+  expected-result: |
+   Товар успешно удален из корзины 
