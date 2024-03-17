@@ -8,7 +8,8 @@ bugreports:
   - summary: |
       ошибка при входе
     environment: |
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Microsoft
+      Google Chrome https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ (Официальная сборка) (64)
+      ОС Microsoft
     steps-to-reproduce: |
       - Нажимаем на Log in
       - Выбираем Continue with Github
