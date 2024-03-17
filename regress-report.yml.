@@ -1,0 +1,18 @@
+---
+test-cases:
+  - summary: |
+      проверка входа пользователя через аккаунт в Github
+    status: fail
+
+bugreports:
+  - summary: |
+      ошибка при входе
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Microsoft
+    steps-to-reproduce: |
+      - Нажимаем на Log in
+      - Выбираем Continue with Github
+    expected-result: |
+     Должен был зайти в аккаунт 
+    actual-result: |
+      Ошибка:"Account not found"
