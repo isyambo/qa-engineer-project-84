@@ -164,7 +164,7 @@ test-cases:
  Проверка безопасности данных
   status: pass
 
-  bugreports: |
+  bugreports: 
      - summary: | 
        Некорректно работает кнопка "В наличии"
      environment: |
