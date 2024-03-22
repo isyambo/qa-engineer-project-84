@@ -1,154 +1,154 @@
 ---
 test-cases:
-- summary: |
+  - summary: |
       Проверка наличия на главной странице карточек товара и их корректного отображения
       status: pass
     
-- summary: |
+  - summary: |
       Проверка возможности просматривать товары и просматривать подробную информацию о них с главной страницы
       status: fail 
 
-- summary: |
+  - summary: |
       Проверка возможности открыть карточку товара и посмотреть подробную информацию о нем
       status: pass
 
-- summary: |
+  - summary: |
       Проверка добавления одного товара в корзину с главной страницы
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности добавлять несколько единиц одного товара в корзину с главной страницы
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности добавлять товар в корзину с карточки товара
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности добавлять несколько разных товаров в корзину с главной страницы 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности добавлять несколько единиц товара в корзину с карточки товара
       status: pass
 
-- summary: |
+  - summary: |
       Проверка удаления товара из корзины 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка очистки товаров из корзины 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка оформления заказа 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка перелистывывния страницы на следующую
       status: pass
 
-- summary: |
+  - summary: |
       Проверка перелистывывния страницы на предыдущую 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка смены языка
       status: pass
 
-- summary: |
+  - summary: |
       Поиск несуществующего товара
       status: pass
 
-- summary: |
+  - summary: |
       Проверка фильтра по цене 
       status: pass
 
-- summary: |
+  - summary: |
       Проверка фильтра по цене ОТ
       status: fail
       
-- summary: |
+  - summary: |
       Проверка фильтра по цене ДО
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности перейти на страницу оплаты из корзины
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности закрыть страницу оплаты через крестик в верхнем углу модального окна
       status: fail
 
-- summary: |
+  - summary: |
       Проверка возможности закрыть страницу оплаты через кнопку "закрыть"
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности искать товары по ключевому слову на русском языке
       status: fail
 
-- summary: |
+  - summary: |
       Проверка возможности искать товары по ключевому слову на английском языке
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности искать товар по категории
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности искать товары по фильтру производителя
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности поставить пустое значение в категории или значение "Все"
       status: fail
       
-- summary: |
+  - summary: |
       Проверка возможности фильтровать товары по нескольким производителям
       status: pass
       
-- summary: |
+  - summary: |
       Проверка возможности фильтровать товары по всем производителям
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности задать пустое значения в фильтре
       status: pass
 
-- summary: |
+  - summary: |
       Проверка кнопки "В наличии"
       status: fail
 
-- summary: |
+  - summary: |
       Проверка адаптивности сайта для смартфонов
       status: fail
 
-- summary: |
+  - summary: |
       Проверка адаптивности сайта для планшетов
       status: fail
 
-- summary: |
+  - summary: |
       Проверка адаптивности сайта для ноутбуков
       status: pass
 
-- summary: |
+  - summary: |
       Проверка на кроссбраузерность в Chrome
       status: pass
 
-- summary: |
+  - summary: |
       Проверка возможности искать товар по категории и производителю
       status: pass
 
-- summary: |
+  - summary: |
       Проверка на кроссбраузерность в Опере
       status: pass
 
-- summary: |
+  - summary: |
       Проверка на кроссбраузерность в Firefox
       status: pass
       
-- summary: |
+  - summary: |
      Проверка безопасности данных
      status: pass
 
