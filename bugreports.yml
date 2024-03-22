@@ -1,65 +1,65 @@
 ---
 - summary: |
     На странице оплаты товара не получается закрыть модальное окно с помощьюю крестика 
-  environment: |
+environment: |
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
     ОС Linux 22.04
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/cart
     2. Нажать ссылку Оплатить заказ
     3. Нажать на крестик в правом верзнем углу модального окна 
-  expected-result: |
+expected-result: |
     Модальное окно должно закрыться 
-  actual-result: |
+actual-result: |
     Модальное окно не закрывается 
 
 - summary: |
     Некорректно работает кнопка "в наличии"
-  environment: |
+environment: |
     Google Chrome 107.0.5304.121 (Официальная сборка) (64 бит)
     ОС Linux
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. нажать на кнопку "в наличии" (что бы пропала галочка)
-  expected-result: |
+expected-result: |
    Отображаются товары которые есть в наличии
-  actual-result: |
+actual-result: |
     Вылезает ошибка "Ничего не найдено"
 
-    - summary: |
+- summary: |
     Проверка фильтра по цене ОТ
-  environment: |
+environment: |
     Версия 121.0.6167.189 (Официальная сборка), (64 бит)
     Windows 10 Pro
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Ввести -1, 0, 1 вручную
     3. Ввести в поле ОТ цифры -1, 0, 1 по стрелкам
-  expected-result: |
+expected-result: |
     Можно ввести только положительное число
-  actual-result: |
+actual-result: |
     Вручную можно ввести отрицательное значение
 
 - summary: |
     Проверка фильтра по цене ДО
-  environment: |
+environment: |
     Версия 121.0.6167.189 (Официальная сборка), (64 бит)
     Windows 10 Pro
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Ввести в поле ДО цифры -1, 0, 1 по стрелкам
     3. Ввести в поле ДО цифры -1, 0, 1 вручную
-  expected-result: |
+expected-result: |
     Можно ввести только положительное число 
-  actual-result: |
+actual-result: |
     Можно ввести отрицательное значение
-
-    - summary: |
+    
+- summary: |
     Сайт неккоректно отображается на смартфонах
-  environment: |
+environment: |
     Версия 121.0.6167.189 (Официальная сборка), (64 бит)
     Windows 10 Pro
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Открыть главную страницу
     2. Открыть DevTools
     3. Toggle device toolbar
@@ -71,40 +71,40 @@
      - Проверить корректность отображения фильтров
      - Проверить корректность отображения форм
      - Проверить отсутствие горизонтальной промотки
-  expected-result: |
+expected-result: |
      В мобильной версии сайта корректно отображаются все необходимые формы и кнопки. Пользователю удобно пользоваться сайтом.
-  actual-result: |
+actual-result: |
      - Картинки убежали вниз
      - Некорректно отображаются шрифты и надписи
      - Неудобно читать текст с сайта
      - Шапка сайта стала широкой
      - Надписи фильтров вышли из рамок. 
      - Поля отображаются неровно
-
-     - summary: |
+     
+- summary: |
     В фильтре по категориям нет возможности выставить пустое значение или значение "все"
-  environment: |
+environment: |
     Версия 121.0.6167.189 (Официальная сборка), (64 бит)
     Windows 10 Pro
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. На главной странице нажать кнопку "Категории" под строкой поиска
     3. Выбрать пустое значение в категориях или значение "Все"
-  expected-result: |
+expected-result: |
     Есть категория "Все" или пустое значение
-  actual-result: |
+actual-result: |
     На странице нет возможности выставить значение "Все" или пустое значение
 
-    - summary: |
+- summary: |
     На странице оплаты товара нет возможности искать товары по ключевому слову на русском языке
-  environment: |
+environment: |
     Версия 121.0.6167.189 (Официальная сборка), (64 бит)
     Windows 10 Pro
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. В поисковую строку в левом верхнем углу ввести слово "Телевизор"
-  expected-result: |
+expected-result: |
     На странице показаны все товары со словом "Телевизор" в описании
-  actual-result: |
+actual-result: |
     На странице не отображаются товары со словом "Телевизор" в описании
     
