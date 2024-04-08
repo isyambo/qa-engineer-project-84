@@ -153,30 +153,30 @@ test-cases:
      status: pass
 
 bugreports: 
-     - summary: | 
+  - summary: | 
         Некорректно работает кнопка "В наличии"
-     environment: |
+  environment: |
         Версия 122.0.0.0 (Официальная сборка) (64бит)
         Windows 10
-     steps-to-reproduce: |
+  steps-to-reproduce: |
         Зайти на страницу https://hexlet-products-store.vercel.app/
         Задать любые значения в фильтре
-     expected-result: |
+  expected-result: |
         На странице показаются товары которые есть в наличии
-     actual-result: |
+  actual-result: |
         Выдает ошибку: Ничего не найдено
 
-     - summary: | 
+  - summary: | 
         Не получается нажать на крестик в модальном окне  
-     environment: |
+  environment: |
         Версия 122.0.0.0 (Официальная сборка) (64бит)
         Windows 10
-     steps-to-reproduce: |
+  steps-to-reproduce: |
         Зайти на страницу https://hexlet-products-store.vercel.app/cart
         Нажать на крестик 
-     expected-result: |
+  expected-result: |
         Окно закрывается 
-     actual-result: |
+  actual-result: |
         Ничего не изменяется 
 
 
