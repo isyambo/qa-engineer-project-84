@@ -93,7 +93,7 @@
            status: pass
    
          - summary: Проверка на кроссбраузерность в Опере
-          status: pass
+           status: pass
 
          - summary: Проверка на кроссбраузерность в Firefox
            status: pass
